@@ -462,7 +462,7 @@ Fig6 <- function(){
   #                 cbind(melt(read_data_frequency2(unique(plotdf2$seed)[2],unique(plotdf2$task_number),500),id.vars='Generation',variable.name='Run',value.name='Invasion_Frequency'),'p' = 10),
   #                 cbind(melt(read_data_frequency2(unique(plotdf2$seed)[3],unique(plotdf2$task_number),500),id.vars='Generation',variable.name='Run',value.name='Invasion_Frequency'),'p' = 100))
   # fwrite(freq_df,'Timeseries/Fig6D')
-  freq_df = fread('Timeseries/Fig6d')
+  freq_df = fread('Timeseries/Fig6d.csv')
   ag <- aggregate(. ~ p*Generation, freq_df, function(x) c(mean = mean(x), sd = sd(x)))
   ag$mean = ag$Invasion_Frequency[,1] *i[3]
   ag$sd = ag$Invasion_Frequency[,2]*i[3]
