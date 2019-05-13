@@ -1,0 +1,10 @@
+Time,Abundance(Log),Treatment
+9,3.8,High
+11,3.4,High
+15,3.9,High
+9,2.8,Medium
+11,1.4,Medium
+15,0.3,Medium
+9,1.8,Low
+11,0.5,Low
+15,0,Low
