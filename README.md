@@ -25,4 +25,6 @@ The raw results outputed from this scripts are extremely large (~30gb). Data was
 
 The results for simulations of the source community (i.e figures S6 and S7). are stored as csv files in Source_Community_Simulations/R folder. The files in this folder contain results for simulations with paramaters J = 10000, u = 0.0001, s = 0.01 except for DFE_Simulations.csv which is carried out using a range of paramaters for multiple different distributions of fitness effects..
 
+Important note: Because of the large file size the zipped files is stored using Git Large File Storage. Downloading this folder as a zip file will only the pointer to this file file and not the file itself. In order to acess this zipped folder please download this repository using Git Clone
 
+Any questions email jeanccvila@gmail.com
