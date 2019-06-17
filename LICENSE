@@ -2,6 +2,10 @@ MIT License
 
 Copyright (c) 2019 Jean Vila
 
+Note this license applies to the entire contents of this repository except for the following files
+Acosta.csv and Jousset.csv which contain third party data that can be acquired by refering to the citations in the manuscript.
+To cite the manuscript please see:Uncovering the Rules of Microbial Community Invasion, Vila et al 2019.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
